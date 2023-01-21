@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.recipesContainer {
+  padding-top: 30px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1300px;
+  flex-wrap: wrap; 
+}
+
+.recipesContainer > h3, p {
+  margin-bottom: 20px;
+}
+
+.container > ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 250px;
+  height: 300px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+}
+
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tags {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: bisque;
+  margin-right: 10px;
+  margin-bottom: 10px; 
+
+}
