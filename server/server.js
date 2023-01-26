@@ -66,7 +66,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-app.get('/recipies/', cors(corsOptions), (req, res) => {
+app.get('/recipes/', cors(corsOptions), (req, res) => {
   res.send(fakedata);
 });
 
